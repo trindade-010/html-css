@@ -33,7 +33,7 @@ body{
     font-family: var(--font-padrão);
 }
 a.externo::after{
-    content: '\00A0\F517';
+    content: '\00A0\1F517';
 }
 
 
@@ -62,7 +62,7 @@ header > p{
     font-family:var(--font-padrão) ;
     max-width: 500px;
     margin: auto;
-   padding-bottom: 20px;
+   padding-bottom: 50px;
     font-size: 1.2em;
     padding-left: 10px;
     padding-right: 10px;
