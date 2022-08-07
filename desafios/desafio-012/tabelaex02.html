@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+        table{
+            border-collapse: collapse;
+            font-weight: bolder;
+            text-align: center;
+        }
+        td {
+            padding: 10px;
+            width: 150px;
+            height: 50px;
+            border: 1px solid black;
+            
+        }
+        .efeito:hover{
+            background-color: aqua;
+       
+        }
+    </style>
+</head>
+<body>
+    <h1>Construindo tabelas</h1>
+
+    <tbody>
+        <table>
+            <tr>
+                <td colspan="4"  class="efeito">A</td>
+                <td rowspan="4" class="efeito">B</td>
+             
+            </tr>
+            <tr>   
+                <td rowspan="4" class="efeito">C</td>
+                <td class="efeito">D</td>
+                <td class="efeito">E</td>
+                <td class="efeito">F</td>
+            </tr>
+            <tr>
+                <td class="efeito">G</td>
+                <td class="efeito">H</td>
+                <td class="efeito">I</td>
+               
+            </tr>
+            <tr>
+               <td class="efeito">J</td>
+                <td class="efeito">L</td>
+                <td class="efeito">M</td>
+            </tr>
+            <tr>
+                <td colspan="4" class="efeito">N</td>
+            </tr>
+        </table>
+    </tbody>
+    
+</body>
+</html>
